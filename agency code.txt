@@ -1,0 +1,106 @@
+<!-- =================== 1. Navbar Section =================== -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7eaf4] px-10 py-3">
+  <div class="flex items-center gap-4 text-[#0d111c]">
+    <div class="size-4">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z" fill="currentColor"></path>
+      </svg>
+    </div>
+    <h2 class="text-[#0d111c] text-lg font-bold leading-tight tracking-[-0.015em]">News Agency</h2>
+  </div>
+  <div class="flex flex-1 justify-end gap-8">
+    <div class="flex items-center gap-9">
+      <a class="text-[#0d111c] text-sm font-medium leading-normal" href="#">Home</a>
+      <a class="text-[#0d111c] text-sm font-medium leading-normal" href="#">About</a>
+      <a class="text-[#0d111c] text-sm font-medium leading-normal" href="#">Services</a>
+      <a class="text-[#0d111c] text-sm font-medium leading-normal" href="#">Portfolio</a>
+      <a class="text-[#0d111c] text-sm font-medium leading-normal" href="#">Contact</a>
+    </div>
+    <button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#0831aa] text-[#f8f9fc] text-sm font-bold leading-normal tracking-[0.015em]">
+      <span class="truncate">Get Started</span>
+    </button>
+  </div>
+</header>
+
+<!-- =================== 2. Hero Section =================== -->
+<div class="px-40 flex flex-1 justify-center py-5">
+  <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+    <div class="@container">
+      <div class="@[480px]:p-4">
+        <div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-start justify-end px-4 pb-10 @[480px]:px-10" style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("HERO_IMAGE_URL")'>
+          <div class="flex flex-col gap-2 text-left">
+            <h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl">Your Story, Amplified</h1>
+            <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base">We are a leading newspaper agency ...</h2>
+          </div>
+          <button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#0831aa] text-[#f8f9fc] text-sm font-bold">Explore Our Services</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- =================== 3. About Us Section =================== -->
+<h2 class="text-[#0d111c] text-[22px] font-bold leading-tight px-4 pb-3 pt-5">About Us</h2>
+<p class="text-[#0d111c] text-base font-normal pb-3 pt-1 px-4">
+  At News Agency, we believe in the power of storytelling ...
+</p>
+
+<!-- =================== 4. Our Services Section =================== -->
+<h2 class="text-[#0d111c] text-[22px] font-bold leading-tight px-4 pb-3 pt-5">Our Services</h2>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+  <!-- Service 1 -->
+  <!-- Service 2 -->
+  <!-- Service 3 -->
+  <!-- Service 4 -->
+</div>
+
+<!-- =================== 5. Trusted by Publications Section =================== -->
+<h2 class="text-[#0d111c] text-[22px] font-bold leading-tight px-4 pb-3 pt-5">Trusted by Publications</h2>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+  <!-- Publication Logos -->
+</div>
+
+<!-- =================== 6. Our Clients Section =================== -->
+<h2 class="text-[#0d111c] text-[22px] font-bold leading-tight px-4 pb-3 pt-5">Our Clients</h2>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+  <!-- Client Logos -->
+</div>
+
+<!-- =================== 7. Call to Action Section =================== -->
+<div class="@container">
+  <div class="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
+    <div class="flex flex-col gap-2 text-center">
+      <h1 class="text-[#0d111c] text-[32px] font-bold leading-tight @[480px]:text-4xl">Ready to Tell Your Story?</h1>
+      <p class="text-[#0d111c] text-base font-normal">Partner with News Agency and let us help you amplify your message.</p>
+    </div>
+    <div class="flex justify-center">
+      <button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center rounded-full h-10 px-4 bg-[#0831aa] text-[#f8f9fc] text-sm font-bold">Get Started</button>
+    </div>
+  </div>
+</div>
+
+<!-- =================== 8. Contact Us Section =================== -->
+<h2 class="text-[#0d111c] text-[22px] font-bold leading-tight px-4 pb-3 pt-5">Contact Us</h2>
+<div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+  <input placeholder="Your Name" class="form-input ..." />
+</div>
+<div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+  <input placeholder="Your Email" class="form-input ..." />
+</div>
+<div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+  <textarea placeholder="Your Message" class="form-input ..."></textarea>
+</div>
+<div class="flex px-4 py-3 justify-start">
+  <button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center rounded-full h-10 px-4 bg-[#0831aa] text-[#f8f9fc] text-sm font-bold">Send Message</button>
+</div>
+
+<!-- =================== 9. Footer Section =================== -->
+<footer class="flex justify-center">
+  <div class="flex max-w-[960px] flex-1 flex-col">
+    <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+      <!-- Footer Navigation Links -->
+      <!-- Social Icons -->
+      <p class="text-[#495e9c] text-base font-normal leading-normal">© 2023 News Agency. All rights reserved.</p>
+    </footer>
+  </div>
+</footer>
