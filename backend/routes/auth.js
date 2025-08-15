@@ -1,7 +1,7 @@
-const express = required('express');
+const express = require('express');
 const router = express.Router();
 
-import{register} from '../controllers/authController'
+const {register,login} = require ('../controllers/authController')
 
 // Define Router
 router.post('/register',register)

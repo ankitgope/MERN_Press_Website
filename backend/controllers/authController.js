@@ -1,4 +1,4 @@
-const User = require("../models/Users"); // model from db
+const User = require("../models/User"); // model from db
 const bcrypt = require("bcrypt"); // password  hasing
 const jwt = require("jsonwebtoken"); //create verify token
 const Joi = require("joi");
@@ -19,7 +19,7 @@ const asyncHandler = require("../middleware/asyncHandler"); // handle async erro
 // The schemas use Joi's validation methods to enforce these rules
 // This schema defines the structure and validation rules for user registration
 
-const Joi = require("joi");
+
 
 const registerSchema = Joi.object({
   name: Joi.string().min(3).max(30).required(),
@@ -43,7 +43,7 @@ const loginSchema = Joi.object({
 // ====================
 // Register controller
 // ====================
-const Register = asyncHandler(async (req, res) => {
+const register = asyncHandler(async (req, res) => {
   // 1 validate request body
   // 1. Validate request body against Joi schema
   // 2. On fail → throw error with validation message
@@ -101,7 +101,7 @@ const Register = asyncHandler(async (req, res) => {
 // ======================
 // Login controller
 // ======================
-const Login = asyncHandler(async (req, res) => {
+const login = asyncHandler(async (req, res) => {
   const { email, password } = req.body;
 
   //  Joi validation
@@ -149,4 +149,4 @@ const Login = asyncHandler(async (req, res) => {
   });
 });
 
-module.exports = { Register, Login };
+module.exports = { register, login };
